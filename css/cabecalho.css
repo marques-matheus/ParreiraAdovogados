@@ -6,7 +6,6 @@
 }
 
 .logo {
-  width: 250px;
   height: auto;
   position: static;
 }
@@ -14,10 +13,11 @@
 .nav__lista {
   display: flex;
   padding: 5px;
+  text-transform: uppercase;
 }
 
 .nav__lista--item {
-  margin: 10px;
+  margin: 8px;
 }
 .nav__lista--item a {
   color: #a38d61;
@@ -43,26 +43,27 @@
 
   .nav__lista {
     display: none;
-    
   }
 
   .nav__lista--mobile {
     display: flex;
     position: absolute;
-    padding: 10px 0;
+    padding: 15px 0;
     text-align: center;
-    height: 30vh;
+    height: auto;
     top: 80px;
     width: 100%;
     background-color: white;
     opacity: 0;
     flex-direction: column;
   }
-
-  
 }
 
 @media screen and (min-width: 768px) {
+  .logo {
+    width: 250px;
+  }
+
   .btn__menu {
     display: none;
   }
@@ -71,7 +72,7 @@
     display: flex;
   }
 
-  .nav__lista--mobile{
+  .nav__lista--mobile {
     display: none;
   }
 }
