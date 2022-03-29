@@ -16,9 +16,9 @@ let clicado = false;
 $botao.addEventListener("click", () => {
   if (clicado === false) {
     clicado = true;
-    $lista.style = "display: flex;";
+    $lista.style = "visibility: visible; opacity:1; transition: opacity 500ms ease-in;";
   } else if (clicado === true) {
     clicado = false;
-    $lista.style = "display: none";
+    $lista.style = "transition: opacity 500ms ease-out";
   }
 });

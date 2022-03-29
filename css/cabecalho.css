@@ -47,17 +47,19 @@
   }
 
   .nav__lista--mobile {
-    
+    display: flex;
     position: absolute;
     padding: 10px 0;
     text-align: center;
-    height: 25vh;
+    height: 30vh;
     top: 80px;
     width: 100%;
-    background-color: azure;
-    display: none;
+    background-color: white;
+    opacity: 0;
     flex-direction: column;
   }
+
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -67,6 +69,10 @@
 
   .nav__lista {
     display: flex;
+  }
+
+  .nav__lista--mobile{
+    display: none;
   }
 }
 
