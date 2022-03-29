@@ -1,8 +1,8 @@
 .nav__conteudo {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
+  display: flex;
   height: 100px;
+  justify-content: space-around;
 }
 
 .logo {
@@ -24,8 +24,8 @@
 }
 
 .nav__lista--item a:hover {
-  color: white;
   border-bottom: 4px groove #a38d61;
+  color: white;
 }
 
 @media screen and (min-width: 0) {
@@ -46,16 +46,16 @@
   }
 
   .nav__lista--mobile {
+    background-color: white;
     display: flex;
-    position: absolute;
-    padding: 15px 0;
-    text-align: center;
+    flex-direction: column;
     height: auto;
+    opacity: 0;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;
     top: 80px;
     width: 100%;
-    background-color: white;
-    opacity: 0;
-    flex-direction: column;
   }
 }
 

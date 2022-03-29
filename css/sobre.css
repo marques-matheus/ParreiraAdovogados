@@ -1,0 +1,42 @@
+.sobre {
+  color: white;
+  margin: 3% 8%;
+}
+
+.sobre__titulo {
+  border-bottom: 2px solid #a38d61;
+  margin: auto;
+  width: max-content;
+}
+
+.sobre__conteudo {
+  font-weight: 200;
+}
+
+@media screen and (min-width: 0) {
+  .sobre {
+    text-align: center;
+  }
+
+  .sobre__titulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .sobre__conteudo {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sobre {
+    text-align: start;
+  }
+  .sobre__titulo {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .sobre__conteudo {
+    font-size: 1.2rem;
+  }
+}

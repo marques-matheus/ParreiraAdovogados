@@ -1,20 +1,40 @@
-.principal{
-    background-image: url(../img/home.jpg);
-    background-size: cover;
-    height: 88.8vh;
-    width: 99.5vw;
-    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.6);
-    margin: auto;
-    background-position: center;
-    display: flex;
-    justify-content: flex-start;
+.principal {
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
 }
 
-.titulo__principal{
-    align-self: center;
-    color: white;
-    margin: 0 10%;
+.titulo__principal {
+  align-self: center;
+  color: white;
+  font-size: 3em;
+  font-weight: 500;
+  margin: 0 10%;
+}
+
+@media screen and (min-width: 0) {
+  .principal {
+    background-position-x: left;
+    height: 90vh;
+    width: 100vw;
+  }
+  .titulo__principal {
+    font-size: 2em;
+    font-weight: 300;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .principal {
+    background-position: center;
+    height: 88.8vh;
+    width: 99vw;
+  }
+  .titulo__principal {
     font-size: 3em;
     font-weight: 500;
-    
+  }
 }
