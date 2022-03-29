@@ -5,7 +5,7 @@
 
 .sobre__titulo {
   border-bottom: 2px solid #a38d61;
-  margin: auto;
+  margin: 2% auto;
   width: max-content;
 }
 
@@ -34,7 +34,7 @@
   }
   .sobre__titulo {
     font-size: 1.8rem;
-    font-weight: 500;
+   
   }
   .sobre__conteudo {
     font-size: 1.2rem;
