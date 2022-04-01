@@ -2,4 +2,27 @@
 @import url(./home.css);
 @import url(./sobre.css);
 @import url(./areas.css);
-@import url(./rodape.css)
+@import url(./rodape.css);
+
+.titulo {
+  border-bottom: 2px solid #a38d61;
+
+  width: max-content;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (min-width: 0) {
+  .titulo {
+    margin: 5% auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .titulo {
+    font-size: 1.8rem;
+    margin: 2% auto;
+  }
+}

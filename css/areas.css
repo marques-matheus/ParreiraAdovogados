@@ -1,15 +1,9 @@
-.areas {
+#areas {
   display: flex;
   flex-direction: column;
 }
 
-.areas__titulo {
-  border-bottom: 2px solid #a38d61;
-  margin: 2% auto;
-  width: max-content;
-  font-weight: 500;
-  color: white;
-}
+
 .areas__div {
   display: flex;
   flex-direction: row;
@@ -42,5 +36,6 @@
 }
 
 .areas__div--titulo {
+  text-align: center;
   color: white;
 }

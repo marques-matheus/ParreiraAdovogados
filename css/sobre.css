@@ -3,11 +3,6 @@
   margin: 3% 8%;
 }
 
-.sobre__titulo {
-  border-bottom: 2px solid #a38d61;
-  margin: 2% auto;
-  width: max-content;
-}
 
 .sobre__conteudo {
   font-weight: 200;
