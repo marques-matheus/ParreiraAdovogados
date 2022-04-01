@@ -1,12 +1,20 @@
-// const $nav = document.querySelector(".nav__conteudo");
-// window.addEventListener("scroll", () => {
-//     if(document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
-//         $nav.style = "background-color: white; position: fixed; top: 0;  width: 100%;"
+const $img = document.querySelector(".logo");
+const $nav = document.querySelector(".nav__conteudo");
 
-//     } else {
-//         return
-//     }
-// });
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    $nav.style =
+      "background-color: white; opacity: 0.8; position: fixed; top: 0;  width: 100%;";
+    $img.src = "../img/LOGOPreto.png";
+  } else if (
+    document.body.scrollTop < 60 ||
+    document.documentElement.scrollTop < 60
+  ) {
+    $nav.style =
+      "background-color: #3f3f3f; position: fixed; top: 0;  width: 100%;";
+    $img.src = "../img/LOGOColorida.png";
+  }
+});
 
 const $botao = document.querySelector(".btn__menu");
 const $lista = document.querySelector(".nav__lista--mobile");
