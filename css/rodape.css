@@ -1,0 +1,95 @@
+.rodape__conteudo {
+  position: static;
+  padding: 2% 0 0 0;
+  margin: 10% 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #696969; /* fallback for old browsers */
+  background: linear-gradient(to right, #3a3a3a, #3f3f3f);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tel,
+.email {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: lighter;
+  text-align: center;
+}
+.social {
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social__link {
+  color: #a38d61;
+  font-size: 1.4em;
+}
+.social__link:hover {
+  transition: ease 0.5s;
+  transform: scale(1.5);
+}
+.copy {
+  color: white;
+  font-weight: lighter;
+}
+
+.linkedin {
+  color: white;
+  font-weight: bold;
+}
+
+.insta:hover {
+  color: #dd2a7b;
+}
+.whats:hover {
+  color: #25d366;
+}
+.linke:hover {
+  color: #0e76a8;
+}
+
+@media screen and (min-width: 0) {
+  .rodape__conteudo {
+    height: 40vh;
+  }
+  .copy {
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social {
+    width: 30vw;
+    font-size: 1.5em;
+  }
+
+  .email {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .rodape__conteudo {
+    height: 20vh;
+  }
+  .copy {
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .social {
+    width: 8vw;
+    font-size: 1.2em;
+  }
+
+  .email {
+    font-size: 1.4em;
+  }
+}

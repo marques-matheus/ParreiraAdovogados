@@ -29,8 +29,8 @@
 }
 
 .areas__img:hover {
-  zoom: 110%;
-  transition: ease-in .2s;
+  transform: scale(1.4);
+  transition: ease-in-out .300s;
   
 
   
@@ -40,4 +40,5 @@
 .areas__div--titulo {
   text-align: center;
   color: white;
+  font-weight: lighter;
 }

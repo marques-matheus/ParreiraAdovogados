@@ -1,8 +1,11 @@
+
 .nav__conteudo {
   align-items: center;
   display: flex;
   height: 100px;
+  width: 100%;;
   justify-content: space-around;
+  z-index: 9
 }
 
 .logo {
@@ -23,9 +26,15 @@
   color: #a38d61;
 }
 
-.nav__lista--item a:hover {
-  border-bottom: 4px groove #a38d61;
+.nav__link--branco:hover {
+  border-bottom: 4px solid #a38d61;
   color: white;
+}
+
+.nav__link--preto:hover{
+border-bottom: 4px solid #a38d61;
+color: black;
+
 }
 
 @media screen and (min-width: 0) {
