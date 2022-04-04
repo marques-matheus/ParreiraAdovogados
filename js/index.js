@@ -33,9 +33,9 @@ $botao.addEventListener("click", () => {
   if (clicado === false) {
     clicado = true;
     $lista.style =
-      "visibility: visible; opacity:1; transition: opacity 300ms ease-in;";
+      "visibility: visible; opacity:1; transition: opacity 300ms ease-in;top:84px;";
   } else if (clicado === true) {
     clicado = false;
-    $lista.style = "transition: opacity 300ms ease-out";
+    $lista.style = "transition: opacity 300ms ease-out; margin-top: -100%;";
   }
 });

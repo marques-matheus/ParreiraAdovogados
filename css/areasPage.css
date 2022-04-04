@@ -1,0 +1,35 @@
+.area__conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70vw;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+  background-color: #4b4b4b;
+  border-radius: 5px;
+}
+.area:first-child{
+    margin:10% auto 0 auto;
+}
+.area{
+    margin:20px auto;
+}
+.lista__areas {
+  width: 50%;
+  margin: auto;
+  list-style: circle;
+  padding-left: 20px;
+}
+.areas__texto {
+  font-size: 18px;
+}
+.areas__item {
+  color: white;
+}
+
+.area__img {
+  border-radius: 5px 0 0 5px;
+  height: 400px;
+  width: 400px;
+}
