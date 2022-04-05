@@ -20,7 +20,6 @@ window.addEventListener("scroll", () => {
       elemento.classList.remove("nav__link--preto");
       elemento.classList.add("nav__link--branco");
     });
-    
   }
 });
 

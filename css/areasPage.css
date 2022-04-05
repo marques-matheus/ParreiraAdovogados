@@ -1,30 +1,28 @@
 .area__conteudo {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 70vw;
-  height: 400px;
-  overflow: hidden;
-  margin: auto;
+
   background-color: #4b4b4b;
   border-radius: 5px;
+  box-sizing: border-box;
+  overflow-y: scroll;
 }
-.area:first-child{
-    margin:10% auto 0 auto;
+.area:first-child {
+  margin: 10% auto 0 auto;
 }
-.area{
-    margin:20px auto;
+.area {
+  display: flex;
+  flex-direction: row;
 }
-.lista__areas {
-  width: 50%;
+.areas__textos {
+  width: 100%;
   margin: auto;
-  list-style: circle;
-  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
 }
 .areas__texto {
   font-size: 18px;
-}
-.areas__item {
   color: white;
 }
 
@@ -32,4 +30,113 @@
   border-radius: 5px 0 0 5px;
   height: 400px;
   width: 400px;
+  margin: 2% 0 0 15%;
+}
+.fa-arrow-right {
+  font-size: 10px;
+}
+@media screen and (min-width: 0) {
+  .area__conteudo {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin: 2% auto ;
+  }
+  .areas__textos {
+    height: auto;
+  }
+  .area__img {
+    display: none;
+  }
+  .titulo {
+    font-size: 18px;
+    text-align: center;
+  }
+  .areas__texto {
+    width: 100%;
+    font-weight: lighter;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .area:first-child {
+    margin: 30% auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+ 
+  .areas__textos {
+    height: auto;
+    width: 100%;
+    padding: 5%;
+  }
+  .area__img {
+    display: flex;
+  }
+  .titulo {
+    font-size: 20px;
+    text-align: center;
+  }
+  .area__img {
+    display: none;
+  }
+  .areas__texto {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .area:first-child {
+    margin: 5% auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .area__conteudo {
+    width: 70%;
+    margin: 2% 15% 0 0;
+    height: 25rem;
+  }
+  .areas__textos {
+    width: 50%;
+    padding: 0;
+  }
+  .area__img {
+    display: flex;
+    width: 250px;
+  }
+  .titulo {
+    font-size: 16px;
+    text-align: center;
+  }
+  .areas__texto {
+    
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+ 
+  .areas__textos {
+    width: 60%;
+ 
+  }
+  .area__img {
+    
+    width: 400px;
+  }
+  .titulo {
+    font-size: 26px;
+    text-align: center;
+  }
+  .areas__texto {
+    width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    
+  }
 }
