@@ -3,6 +3,8 @@
   padding: 2% 0 0 0;
   margin: 10% 0 0 0;
   display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
