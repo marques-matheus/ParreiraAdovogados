@@ -14,6 +14,10 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+footer{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .tel,
 .email {
   font-size: 1.5rem;
@@ -35,6 +39,7 @@
 .social__link:hover {
   transition: ease 0.5s;
   transform: scale(1.5);
+  color: white;
 }
 .copy {
   color: white;
@@ -46,15 +51,7 @@
   font-weight: bold;
 }
 
-.insta:hover {
-  color: #dd2a7b;
-}
-.whats:hover {
-  color: #25d366;
-}
-.linke:hover {
-  color: #0e76a8;
-}
+
 
 @media screen and (min-width: 0) {
   .rodape__conteudo {
