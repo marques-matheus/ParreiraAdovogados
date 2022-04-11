@@ -12,8 +12,28 @@
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     scroll-behavior: smooth;
-    scroll-padding-top: 150px
+   
+
+
   }
+
+  @media screen and (min-width: 0) {
+    html {
+      scroll-padding-top: 280px
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    html {
+      scroll-padding-top: 150px
+    }
+  }
+    
+  
+    
+  
+
+  
   
   /* Sections
   ========================================================================== */
