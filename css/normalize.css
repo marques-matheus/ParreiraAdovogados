@@ -30,9 +30,6 @@
   }
     
   
-    
-  
-
   
   
   /* Sections
@@ -41,6 +38,14 @@
   /**
   * Remove the margin in all browsers.
   */
+  body::-webkit-scrollbar{
+    width: .4em;
+  }
+    
+  body::-webkit-scrollbar-thumb{
+    background-color: #a38d61;
+   
+  }
   
   body {
    
