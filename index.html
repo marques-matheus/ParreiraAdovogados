@@ -27,7 +27,7 @@
 
   <body>
     <header>
-      <nav class="nav__conteudo">
+      <nav class="nav__conteudo menu">
         <a href="#">
           <img class="logo" src="img/LOGOColorida.png" alt="Logo" />
         </a>
@@ -48,8 +48,10 @@
 
         <button class="btn__menu"><i class="fas fa-bars"></i></button>
         <ul class="nav__lista--mobile bubble">
-          <li class="nav__lista--item"><a href="#principal">Inicio </a></li>
-          <li class="nav__lista--item"><a href="#sobre">Sobre </a></li>
+          <li class="nav__lista--item">
+            <a href="#principal">Inicio </a></li>
+          <li class="nav__lista--item">
+            <a href="#sobre">Sobre </a></li>
           <li class="nav__lista--item">
             <a href="#areas">Areas de Atuação </a>
           </li>
@@ -57,6 +59,7 @@
         </ul>
       </nav>
     </header>
+  
     <main>
       <section id="principal" class="principal">
         <!-- <p class="titulo__principal">Parreira Advogados</p> -->
@@ -83,26 +86,31 @@
       <section class="areas__div">
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html">
-              <i class="fa fa-briefcase icon__conteudo" aria-hidden="true"></i>
+            <a href="areas.html#administrativo">
+              <i class="fas fa-book-open icon__conteudo"></i>
             </a>
           </div>
-          <h3 class="areas__div--titulo">Trabalhista</h3>
+          <h3 class="areas__div--titulo">Administrativa</h3>
         </div>
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html">
-              <i
-                class="fa-solid fa-people-roof icon__conteudo"
-                aria-hidden="true"
-              ></i>
+            <a href="areas.html#agro"
+              ><i class="fa-solid fa-tractor icon__conteudo"></i>
             </a>
           </div>
-          <h3 class="areas__div--titulo">Família</h3>
+          <h3 class="areas__div--titulo">Agrária</h3>
         </div>
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html#direito-consumidor">
+            <a href="areas.html#ambiental">
+              <i class="fa fa-tree icon__conteudo" aria-hidden="true"></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Ambiental</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#consumidor">
               <i
                 class="fa-solid fa-cart-shopping icon__conteudo"
                 aria-hidden="true"
@@ -113,63 +121,15 @@
         </div>
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html#direito-administrativo">
-              <i class="fas fa-book-open icon__conteudo"></i>
+            <a href="areas.html#constitucional">
+              <i class="fa-solid fa-building-columns icon__conteudo"></i>
             </a>
           </div>
-          <h3 class="areas__div--titulo">Administrativa</h3>
+          <h3 class="areas__div--titulo">Constitucional</h3>
         </div>
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html#direito-eleitoral"
-              ><i class="fa-solid fas fa-award icon__conteudo"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Eleitoral</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-familiar-sucessoes"
-              ><i class="fa-solid fas fa-scroll icon__conteudo"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Sucessões</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-tributario">
-              <i class="fa fa-dollar icon__conteudo" aria-hidden="true"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Tributário</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-ambiental">
-              <i class="fa fa-tree icon__conteudo" aria-hidden="true"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Ambiental</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-previdenciario">
-              <i class="fa-solid fa-person-cane icon__conteudo"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Previdenciário</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-agro"
-              ><i class="fa-solid fa-tractor icon__conteudo"></i>
-            </a>
-          </div>
-          <h3 class="areas__div--titulo">Agrário</h3>
-        </div>
-        <div>
-          <div class="areas__conteudo">
-            <a href="areas.html#direito-criminal"
+            <a href="areas.html#criminal"
               ><i class="fa-solid fa-handcuffs icon__conteudo"></i>
             </a>
           </div>
@@ -177,11 +137,54 @@
         </div>
         <div>
           <div class="areas__conteudo">
-            <a href="areas.html#direito-constitucional">
-              <i class="fa-solid fa-building-columns icon__conteudo"></i>
+            <a href="areas.html#eleitoral"
+              ><i class="fa-solid fas fa-award icon__conteudo"></i>
             </a>
           </div>
-          <h3 class="areas__div--titulo">Constitucional</h3>
+          <h3 class="areas__div--titulo">Eleitoral</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#familiar-sucessoes">
+              <i
+                class="fa-solid fa-people-roof icon__conteudo"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Família</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#previdenciario">
+              <i class="fa-solid fa-person-cane icon__conteudo"></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Previdenciário</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#familiar-sucessoes"
+              ><i class="fa-solid fas fa-scroll icon__conteudo"></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Sucessões</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#trabalhista">
+              <i class="fa fa-briefcase icon__conteudo" aria-hidden="true"></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Trabalhista</h3>
+        </div>
+        <div>
+          <div class="areas__conteudo">
+            <a href="areas.html#tributario">
+              <i class="fa fa-dollar icon__conteudo" aria-hidden="true"></i>
+            </a>
+          </div>
+          <h3 class="areas__div--titulo">Tributário</h3>
         </div>
       </section>
     </section>

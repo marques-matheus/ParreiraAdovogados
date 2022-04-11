@@ -2,6 +2,7 @@ const $img = document.querySelector(".logo");
 const $nav = document.querySelector(".nav__conteudo");
 const $link = document.querySelectorAll(".nav__link");
 
+
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     $nav.style =
@@ -38,3 +39,4 @@ $botao.addEventListener("click", () => {
     $lista.style = "transition: opacity 300ms ease-out; margin-top: -100%;";
   }
 });
+
