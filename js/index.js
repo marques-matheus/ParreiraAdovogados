@@ -6,7 +6,7 @@ const $link = document.querySelectorAll(".nav__link");
 window.addEventListener("scroll", () => {
   if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
     $nav.style =
-      "background-color: white; opacity: 0.9; position: fixed; top: 0;";
+      "background-color: white; opacity: 1; position: fixed; top: 0;";
     $img.src = "../img/LOGOPreto.png";
     $link.forEach((elemento) => {
       elemento.classList.add("nav__link--preto");
